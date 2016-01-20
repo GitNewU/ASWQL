@@ -1,0 +1,113 @@
+body{
+	margin: 0 auto;
+	background-color: #fff;
+}
+table {
+	width:1175px;
+	margin:0 auto;
+	color:#333333;
+	border-width: 1px;
+	border-color: #eee;
+	border-left: medium none;
+ 	border-right: medium none;
+	border-collapse: collapse;
+}
+table th {
+	text-align:center;
+	font-family: "Candara","Microsoft YaHei";
+	font-size: 18px;
+	border-width: 1px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-color: #eee;
+	border-left: medium none;
+ 	border-right: medium none;
+	background-color: #ccffcc;
+}
+table td {
+	text-align:center;
+	font-family: "Candara","Microsoft YaHei";
+	border-width: 1px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style: solid;
+	border-color: #eee;
+	border-left: medium none;
+ 	border-right: medium none;
+	background-color: #fff;
+}
+.btn-search option,.btn-dbname option{
+	font-size: 20px;
+}
+#show{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+#main{
+	width:1280px;
+	margin:0 auto;
+}
+#logo{
+	width: 318px;
+	margin:0 auto;
+	margin-top: 130px;
+}
+#logo_cn{
+	display: block;
+	font-size: 62px;
+	font-weight: 900;
+}
+#logo_en{
+	font-size: 18px;
+	font-weight: 900;
+	font-family: Georgia,serif;
+	letter-spacing: 1px;
+}
+#search{
+	margin:0 auto;
+	width: 1175px;
+	margin-top: 80px;
+}
+.btn-search,.btn-dbname{
+	height: 44px;
+	font-size: 20px;
+	padding:8px;
+	font-weight: 900;
+	font-family: "Candara","Microsoft YaHei";
+	color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-search{
+	position: relative;
+	top:2px;
+	width:150px;
+}
+.btn-dbname{
+	width:230px;
+}
+#search_text{
+	position: relative;
+	width: 690px;
+	height: 44px;
+	font-size: 20px;
+}
+#search_button{
+	position: relative;
+	font-weight: 800;
+	font-size: 20px;
+	width: 80px;
+	height: 44px;
+	font-family: "Microsoft YaHei";
+	color: #ffffff;
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+form{
+	display: inline-block;
+}
